@@ -1,0 +1,46 @@
+body {
+  /*Agregando un fondo de color a la página*/
+  background-color: #eaecee;
+  /*Poniendole el tipo de letra sans-serif*/
+  font-family: sans-serif;
+  /*Definiendo el tamaño del texto*/
+  font-size: 30px;
+}
+.icono {
+  /*Pusimos posición relativa, para indicar que en la esquina izquierda lo correré 200px y de abajo para arriba 50px*/
+  position: relative;
+  /*La parte izquierda de los demás elementos se junto a nuestro icono*/
+  float: left;
+
+  left: 200px;
+  bottom: 50px;
+}
+
+a {
+  /*Le quitamos el subrayado al enlace*/
+  text-decoration: none;
+}
+div h1 {
+  /*le agregamos un tamaño de 100px*/
+  font-size: 100px;
+  /*Pusimos posición relativa, para indicar que en la esquina izquierda lo correré 350px*/
+  position: relative;
+  left: 350px;
+}
+#Menu {
+    /*Pusimos posición relativa, para indicar que en la esquina izquierda lo correré 580px y de abajo para arriba 45px*/
+  position: relative;
+  left: 580px;
+  bottom: 45px;
+  /*Indicamos que va a float a la parte superior*/
+  float: top;
+  /*el tamaño de la letra será de 30px*/
+  font-size: 30px;
+}
+/*al momento de poner el cursos encima, hará lo siguiente:*/
+a:hover {
+  /*background para el fondo que está alrededor del texto*/
+  background: #908c8c;
+  /*color para indicar el color del texto*/
+  color: rgb(0, 0, 0);
+}
